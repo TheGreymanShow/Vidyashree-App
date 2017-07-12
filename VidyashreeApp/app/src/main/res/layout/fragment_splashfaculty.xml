@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.theGreymanShow.vidyashree.Splashfaculty"
+    android:background="@drawable/teacher2">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/enter2"
+        android:layout_marginBottom="99dp"
+        android:alpha="0.3"
+        android:textColor="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:onClick="onClick" />
+
+
+</RelativeLayout>

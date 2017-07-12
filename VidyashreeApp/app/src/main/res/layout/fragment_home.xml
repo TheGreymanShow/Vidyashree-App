@@ -1,0 +1,161 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.theGreymanShow.vidyashree.Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#212121"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#212121"
+                android:elevation="10dp">
+
+                <android.support.v4.view.ViewPager
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/viewpager"
+                    android:elevation="10dp">
+                </android.support.v4.view.ViewPager>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageButton5"
+                    android:background="@drawable/scibtn"
+                    android:elevation="12dp"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="15dp"
+                    android:onClick="onClick"
+                    android:layout_marginBottom="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageButton4a"
+                    android:elevation="12dp"
+                    android:background="@drawable/engbtn2"
+                    android:layout_below="@+id/imageButton5"
+                    android:onClick="onClick"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageButton6"
+                    android:elevation="12dp"
+                    android:layout_below="@+id/imageButton4a"
+                    android:background="@drawable/dipbtn"
+                    android:onClick="onClick"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageButton7"
+                    android:elevation="12dp"
+                    android:layout_below="@+id/imageButton6"
+                    android:background="@drawable/bscbtn"
+                    android:onClick="onClick"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageButton8"
+                    android:elevation="12dp"
+                    android:layout_below="@+id/imageButton7"
+                    android:background="@drawable/gatebtn"
+                    android:onClick="onClick"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="40dp" />
+
+                <RelativeLayout
+                    android:layout_height="160dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/imageButton8"
+                    android:background="#eeeeee"
+                    android:id="@+id/rel">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView12"
+                        android:src="@drawable/credits"
+                        android:adjustViewBounds="false"
+                        android:alpha="0.7"
+                        android:layout_margin="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Developer"
+                        android:id="@+id/textView9"
+                        android:textColor="#212121"
+                        android:alpha="0.5"
+                        android:layout_margin="3dp" />
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="thegreymanshow@gmail.com"
+                        android:id="@+id/textView10"
+                        android:textColor="#212121"
+                        android:alpha="0.5"
+                        android:clickable="false"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignWithParentIfMissing="false"
+                        android:layout_centerHorizontal="true" /> -->
+
+                </RelativeLayout>
+
+
+                <!--
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton9"
+                    android:elevation="12dp"
+                    android:layout_alignTop="@+id/imageButton8"
+                    android:layout_alignLeft="@+id/imageButton7"
+                    android:layout_alignStart="@+id/imageButton7"
+                    android:background="@drawable/cet"
+                    android:onClick="onClick" />-->
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

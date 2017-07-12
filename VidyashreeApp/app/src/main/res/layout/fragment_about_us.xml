@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/aboutus"
+            android:id="@+id/image"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="From Director's Desk..."
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/textView1"
+            android:text="From day one, we believed that Student is the most important person at Vidyashree Classes. No compromise on quality, has been our motto on which foundations Vidyashree Classes were laid, many years ago. We aimed to satisfy all the educational needs of each student honestly sincerely. Over the years, this principle has become a way of life for all Vidyashree Classes . I can proudly say that the flame of perfection, which was lit long back, continue to shine bigger and brighter as the years go by."
+            android:id="@+id/textView2"
+            android:layout_margin="10dp"
+            android:textColor="#757575"
+            android:textColorHighlight="#757575"
+            android:gravity="center_horizontal"
+            android:padding="12dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/aboutus2"
+            android:layout_below="@+id/textView2"
+            android:id="@+id/image2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Vidyashree Classes is committed to Total Quality Coaching, with Consistency in delivering the Best Possible Education to our Students. We uphold the Highest Ethical Standards  believe in creating New Benchmarks in the Coaching field. Honesty in Teaching is our Policy."
+            android:id="@+id/textView3"
+            android:gravity="center_horizontal"
+            android:textColor="#757575"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/image2"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/aboutus3"
+            android:layout_below="@+id/textView3"
+            android:id="@+id/image3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="To Impart the Best Possible Education to Our Students using Latest Technologies and Effective Coaching Methods. To Provide the Complete Solution to our Students at one place. To Strive for the Success of our Students. To Enable them to become Confident and Successful in their lives."
+            android:id="@+id/textView4"
+            android:gravity="center_horizontal"
+            android:textColor="#757575"
+            android:padding="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/image3"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            >
+        </item>
+
+        <item
+            android:id="@+id/about_us"
+            android:title="About us"
+            android:icon="@drawable/pop"
+            >
+        </item>
+
+        <item
+            android:id="@+id/faculty"
+            android:title="Faculty"
+            android:icon="@drawable/teacher"
+            >
+        </item>
+
+
+        <item
+            android:id="@+id/gallery"
+            android:title="Gallery"
+            android:icon="@drawable/gallery"
+            >
+        </item>
+
+        <item
+            android:id="@+id/toppers"
+            android:title="Toppers Speak"
+            android:icon="@drawable/toppers"
+            >
+        </item>
+
+        <item
+            android:id="@+id/map_us"
+            android:title="Map Us"
+            android:icon="@drawable/map1"
+            >
+        </item>
+
+
+        <item
+            android:id="@+id/contact_us"
+            android:title="Contact us"
+            android:icon="@drawable/contactus"
+            >
+        </item>
+
+        <item
+            android:id="@+id/website"
+            android:title="Official website"
+            android:icon="@drawable/website"
+            >
+        </item>
+
+        <item
+            android:id="@+id/fb"
+            android:title="Facebook"
+            android:icon="@drawable/facebook"
+            >
+        </item>
+
+    </group>
+
+</menu>

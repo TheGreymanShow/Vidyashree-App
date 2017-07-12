@@ -1,0 +1,52 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_frame2"
+    android:orientation="vertical"
+    tools:context="com.theGreymanShow.vidyashree.Gallery"
+    android:background="#263238">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton"
+                android:background="@drawable/campus"
+                android:focusable="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="onClick"
+                android:layout_margin="15dp"
+                android:nestedScrollingEnabled="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Have a look at our campus, classrooms , and the atmosphere we have at Vidyashree. Also our Annual Day celebreations that we host every year to felicitate all our toppers and lighten the mood !"
+                android:id="@+id/textView"
+                android:layout_below="@+id/imageButton"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fff"
+                android:alpha="0.7"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageButton2"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onClick"
+                    android:nestedScrollingEnabled="false"
+                    android:src="@drawable/awards"
+                android:layout_margin="15dp" />
+
+</RelativeLayout>
+

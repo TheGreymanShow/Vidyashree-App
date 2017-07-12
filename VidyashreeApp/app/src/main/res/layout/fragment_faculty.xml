@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/fac1"
+            android:id="@+id/image"
+            android:elevation="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="We, at Vidyashree boast of one of the best and the most competent faculty out there who are ready to help students excell in their fields. Our faculty is the major reason behind the excellent sucess of our students in all courses like Science, Engineering , Diploma, Bsc. IT etc. as expressed by our very own toppers in the Toppers Speak section."
+            android:id="@+id/textView1"
+            android:alpha="0.9"
+            android:padding="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:singleLine="false"
+            android:gravity="left|right" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/teach1"
+            android:id="@+id/image1"
+            android:layout_below="@+id/textView1"
+            android:adjustViewBounds="false"
+            android:scaleType="fitStart"
+            android:elevation="15dp"
+            android:layout_margin="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="We have an excellent blend of highly experienced as well as young, fresh teachers, who are available throughout the week for solving your doubts and helping you reach the promised lands and topping the exams.Despite being technically sound, they are very friendly and students can contact them anytime even after class hours.You can have a look at some of our faculty and the student teacher bonding that takes shape at Vidyashree in the Gallery section."
+            android:id="@+id/textView2"
+            android:alpha="0.9"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/image1"
+            android:layout_alignParentStart="true"
+            android:allowUndo="true"
+            android:gravity="left|right"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fac3"
+            android:id="@+id/image2"
+            android:layout_below="@+id/textView2"
+            android:elevation="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp" />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

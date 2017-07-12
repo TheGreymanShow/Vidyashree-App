@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_frame2"
+    android:orientation="vertical"
+    tools:context="com.theGreymanShow.vidyashree.Gallery"
+    android:background="#009688">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:id="@+id/imageButton3"
+        android:focusable="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:nestedScrollingEnabled="false"
+        android:src="@drawable/febtn"
+        android:background="#1de9b6"
+        android:padding="3dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="We at Vidyashree always try to showcase our toppers in the best possible way. And this is what they had to say about their experience after being with us for so many years !"
+        android:id="@+id/textView"
+        android:textColor="#FFF"
+        android:alpha="1"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:allowUndo="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton4"
+        android:onClick="onClick"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@+id/textView"
+        android:src="@drawable/sebtn"
+        android:background="#1de9b6"
+        android:scaleType="fitXY"
+        android:padding="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_margin="15dp" />
+
+</RelativeLayout>
+
+
